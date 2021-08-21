@@ -1,0 +1,97 @@
+* {
+ /*   border: 4px cornflowerblue solid; */
+}
+
+/* p::first-letter {
+    color: #ff0000;
+    font-size: 69pt;
+  } */
+
+h1 {
+    color: #27A603;
+    font-weight: bold;
+}
+
+/* Josh shit */
+
+body {
+    background-color: bisque;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Comic Sans MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+main {
+    flex-grow: 2;
+}
+
+aside {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+aside div {
+    border: 4px lightseagreen solid;
+    margin-bottom: 40px;
+}
+
+aside div img {
+    height: 250px;
+    width: auto;
+}
+
+header {
+    text-align: center;
+}
+
+header nav a {
+    border: 3px lightseagreen solid;
+    text-decoration: none;
+    color: rebeccapurple;
+    padding: 6px;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+header nav a:hover {
+    color: bisque;
+    background-color: rebeccapurple;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.row .pic {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row .pic img {
+    height: auto;
+    width: 200px;
+}
+
+.row .longtext {
+    flex-grow: 2;
+    width: 50%;
+}
+
+.row:not(:nth-child(1)) {
+    border-top: 4px solid black;
+}
